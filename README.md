@@ -1,6 +1,7 @@
 # GifsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+Pequeña App para listar busquedas de gifs,utilizando Angular y Bootstrap.
 
 ## Development server
 
