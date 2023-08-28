@@ -12,7 +12,7 @@ export class SearchBoxComponent {
     //Se hace referencia al elemento HTML que tiene el atributo #search.
     public tagInput!: ElementRef<HTMLInputElement>;
 
-    constructor(private gifsService:GifsService) {}
+    constructor(private gifsService: GifsService) {}
 
     searchTag() {
         const newTag = this.tagInput.nativeElement.value;
