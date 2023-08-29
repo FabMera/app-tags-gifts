@@ -7,9 +7,13 @@ import { CardComponent } from './components/card/card.component';
 import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
-  declarations: [HomePageComponent, SearchBoxComponent, CardListComponent, CardComponent],
-  imports: [CommonModule,SharedModule],
-  exports: [HomePageComponent],
-
+    declarations: [
+        HomePageComponent,
+        SearchBoxComponent,
+        CardListComponent,
+        CardComponent,
+    ],
+    imports: [CommonModule, SharedModule],
+    exports: [HomePageComponent],
 })
 export class GifsModule {}
